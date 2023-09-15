@@ -1,0 +1,436 @@
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    
+
+    
+   /* box-sizing: border-box; */
+}
+
+/* Hero section */
+
+.container {
+    background-image: url(images/legal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+    
+}
+.container img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+nav .logo h2{
+    margin-left: 95px; 
+    color: white;
+}
+nav .appointment {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 15%;
+    cursor: pointer;
+}
+.appoint {
+    border: 2px solid white;
+    padding: 5px 10px;
+    color: white;
+    transition: all .2s ease-in-out;
+   
+}
+.appoint:hover{
+    background-color: rgb(203, 146, 81);
+    transform: scale(1.1);
+    border: 2px solid rgb(203, 146, 81);
+
+   
+}
+.call-number{
+    color:white;
+}
+
+nav .pages {
+    display: flex;
+    gap: 25px;
+    margin-left: 5%;
+} 
+nav .pages a{
+    text-decoration: none;
+    color:white;
+    transform: scale(1.2);
+}
+nav .pages a:hover{
+    color:bisque;
+    transition: all .2s ease-in-out;
+}
+
+/***** CONTENT *****/
+
+.content {
+    display: flex;
+    padding: 40px 60px;
+}
+.content-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.content-item .content-heading {
+    margin-right: 50%;
+    font-size: 55px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-item .content-slogan {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 40%;
+}
+.content .content-btn{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(177, 91, 26);
+    color:white;
+    padding: 10px 10px;
+    cursor: pointer;
+    width: 120px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+.content .content-btn a{
+    color:white;
+    text-decoration: none;
+}
+.content .content-btn:hover{
+    background-color:rgb(203, 146, 81);
+    transform: scale(1.1);
+    
+
+}
+
+
+/* End of Hero section */
+
+
+/* ABOUT */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 150px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.about .atty-photo img{
+    width: 400px;
+    height: 500px;
+    padding: 20px 20px;
+    border-radius: 0px 100px 0px 0px;
+    box-shadow: 2px 2px 2px rgb(27, 33, 42); 
+    
+}
+.about-us {
+    padding: 50px;
+} 
+.about-us .about-head {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: rgb(177, 91, 26);
+}
+.about-paragraph {
+    padding-top: 30px;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-weight: 100;
+    color:rgb(27, 33, 42);
+}
+.about-paragraph-2 {
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-weight: 100;
+    color:rgb(27, 33, 42);
+}
+.ceo-name {
+    color:rgb(27, 33, 42);
+    word-spacing: 1px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Practice Area */ 
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(205, 163, 116, 0.151);
+    padding: 50px 10px;
+}
+.area {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.info-container .area {
+    font-size: 40px;
+    color:#1f2937;
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.boxes .areas img {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(205,163,116);
+    padding: 25px;
+    border-radius: 50px;
+    
+}
+.boxes .areas {
+    background-color: rgba(255, 255, 255, 0.595);
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 20px;
+
+    box-shadow: 2px 5px 5px #888888;
+   
+    
+}
+.boxes .areas:hover{
+    background-color: antiquewhite;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+.boxes > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    
+}
+.boxes  p {
+    display: flex;
+    justify-content: center;
+}
+.boxes .sub-heading{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boxes img {
+    width: 100px;
+    height: 100px;
+}
+
+.content-item, .content-img {
+    padding: 20px 30px;
+} 
+
+/* Quotes section */
+
+.quotes-section {
+    background-color: #e5e7eb46;
+    padding: 60px 100px;
+}
+.quotes-section p {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    padding-left:40px;
+    padding-right: 40px;
+}
+.quotes-section span {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+   .cta-container {
+       padding: 50px 80px;
+       margin: 40px 0px;
+   }
+   .cta-item-container {
+       background-color: rgb(203, 146, 81);
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       padding: 30px 30px;
+   }
+   .cta-description p{
+      color: #f9faf8;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 22px;
+   }
+   
+ .cta-item-container button {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    background-color: #3881f600;
+    border-radius: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+ }
+ .cta-item-container button:hover{
+    background-color:rgb(177, 91, 26);
+    color:white;
+    border: 2px solid rgb(177, 91, 26);
+    transform: scale(1.1);
+ }
+ 
+
+
+ /* Footer section */
+
+ footer {
+     background-color: #1f2937;
+    /* width: 100%; */
+     padding: 20px 20px
+ }
+
+ footer p {
+     font-size: 12px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     display: flex;
+     color: #e5e7eb;
+     justify-content: center;
+ }
+
+ /**** Why Choose Us ****/
+
+
+   .why-choose-us {
+    /*width: 100%; */
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .why-head-title {
+    font-size: 40px;
+    color:rgb(177, 91, 26);
+   }
+    .why-paragraph {
+    
+        word-spacing: 1px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        /*padding: 10px 100px; */
+
+        text-align: center;
+        color: rgb(27, 33, 42);
+    }
+    .why-paragraph button{
+        padding:10px;
+        width: 120px;
+        height: 40px;
+        background-color: rgb(177, 91, 26);
+        color:white;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        border: none;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+        
+    }
+    .why-paragraph button:hover{
+        background-color: rgb(205,163,116);
+        color: white;
+        transform: scale(1.1);
+        
+    }
+
+    /*** WHAT OUR CLIENT SAY ***/
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    
+}
+.testimonial .review-title {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #434343;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 30px;
+    padding-bottom: 50px;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 50px;
+    background-color: whitesmoke;
+    box-shadow: 2px 5px 5px #888888;
+    
+}
+ .row .col img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    align-items: center;
+    padding:10px 10px;
+ }
+ .col .name {
+    font-size:18px;
+    padding-top:5px;
+    font-weight: bold;
+ }
+.border {
+    width: 160px;
+    height: 5px;
+    background: #434343;
+    margin: 26px auto;
+
+}
+   
+
+

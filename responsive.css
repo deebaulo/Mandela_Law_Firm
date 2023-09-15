@@ -1,0 +1,136 @@
+ /******* RESPONSIVE *******/
+
+ @media (min-width:360px) and (max-width:800px) {
+
+
+    .container {
+        background-image: url(images/legal.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center right;
+        
+    }
+    
+    .pages a{
+        display: none;
+    }
+    .appoint {
+        border: 2px solid white;
+       margin-right: 40px;
+        color: white;
+        transition: all .2s ease-in-out;
+    }
+    nav .logo h2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 45px; 
+        color: white;
+        font-size: 18px;
+    }
+    .call-number {
+        display: none;
+    }
+    .content {
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-wrap: wrap;
+    
+       
+    }
+    .content-item {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .content-item .content-heading {
+        display: flex;
+        font-size: 30px;
+        font-weight: 500;
+        color: #f9faf8;
+        font-family: 'Times New Roman', Times, serif;
+        margin-right: 0%;
+    }
+    .content-item .content-slogan {
+        display: flex;
+        font-size: 20px;
+        color: #f9faf8;
+        font-family: 'Times New Roman', Times, serif;
+        margin-right: 0%;
+        margin-left: 0%;
+        text-align: left;
+    }
+    /** about-container **/
+
+    .about-container {
+        display: flex;
+        justify-content: center;
+       
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    
+    }
+    .about .atty-photo img{
+        width: 320px;
+        height: 320px;
+        border-radius: 0px 80px 0px 0px;
+    }
+    .about-us {
+        padding: 0px 20px;
+    } 
+
+    /*** Practice area ***/
+    .area {
+        font-size: 30px;
+    }
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .why-choose-us {
+        text-align: left;
+        margin: 0%;
+        padding: 25px;
+     
+        
+    }    
+    .why-head-title, .why-paragraph{
+        text-align: left;
+        
+    } 
+    .why-head-title {
+        margin: 0%;
+        display: flex;
+        justify-content: left;
+        font-size: 30px;
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Client Review */
+
+    .testimonial .review-title {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+        
+     /* Cta-description */
+     
+     .cta-description p{
+       display: none;
+     }
+     .cta-btn {
+       padding-right: 20px;
+     }
+        
+ }
